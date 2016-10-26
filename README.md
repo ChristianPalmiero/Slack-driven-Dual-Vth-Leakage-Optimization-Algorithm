@@ -8,7 +8,7 @@ Main arguments of the command are:
 assignment [integer]
 - slackWin: is the slack window for critical paths [ns]
 <br />The command returns the list resList containing the following 4 items:
-<br />item 0--> power-savings: % of leakage reduction w.r.t. the initial configuration;
-<br />item 1--> execution-time: difference between starting-time and end-time [seconds]*.
-<br />item 2--> lvt: % of LVT gates
-<br />item 3--> hvt: % of HVT gates
+- power-savings: % of leakage reduction w.r.t. the initial configuration;
+- execution-time: difference between starting-time and end-time [seconds]*.
+- lvt: % of LVT gates
+- hvt: % of HVT gates

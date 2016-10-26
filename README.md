@@ -7,7 +7,7 @@ Main arguments of the command are:
 - criticalPaths: the total number of timing paths that fall within a given slack window after the dual-Vth
 assignment [integer]
 - slackWin: is the slack window for critical paths [ns]
-<br />The command returns the list resList containing the following 4 items:
+The command returns the list resList containing the following 4 items:
 - power-savings: % of leakage reduction w.r.t. the initial configuration;
 - execution-time: difference between starting-time and end-time [seconds]*.
 - lvt: % of LVT gates

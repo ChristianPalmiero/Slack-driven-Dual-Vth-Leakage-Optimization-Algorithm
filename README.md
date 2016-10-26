@@ -1,5 +1,12 @@
 # Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm
+## Introduction
 A TCL command to be integrated within Design Compiler that performs a Slack-driven Dual-Vth post synthesis optimization based on the Logic Synthesis Flow using Synopsys.<br />
+![alt tag](https://github.com/ChristianPalmiero/Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm/blob/master/1.png)
+![alt tag](https://github.com/ChristianPalmiero/Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm/blob/master/2.png)
+## Target library and timing constraints
+The technology library has been provided by STMicroelectronics @ 65nm. 
+<br /> The clock period has been set to 3.0 ns.
+## Command
 Such a command reduces leakage power by means of dual-Vth assignment while forcing the number of quasi-critical paths below a user-defined constraint.
 <br />
 Main arguments of the command are:
@@ -14,9 +21,9 @@ The command returns the list resList containing the following 4 items:
 - lvt: % of LVT gates;
 - hvt: % of HVT gates;
 
-##Example
+## Example
 ![alt tag](https://github.com/ChristianPalmiero/Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm/blob/master/img.png)
 
-##Details
+## Details
 See the Report.pdf file in order to catch more information about the implementation details.
 <br />See the dualVth_Group_13.tcl file in order to read the script.

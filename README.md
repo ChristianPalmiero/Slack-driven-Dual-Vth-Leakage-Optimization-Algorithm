@@ -13,3 +13,5 @@ The command returns the list resList containing the following 4 items:
 - execution-time: difference between starting-time and end-time [seconds]
 - lvt: % of LVT gates
 - hvt: % of HVT gates
+
+![alt tag](https://github.com/ChristianPalmiero/Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm/blob/master/img.png)

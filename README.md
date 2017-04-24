@@ -25,5 +25,5 @@ The command returns the list resList containing the following 4 items:
 ![alt tag](https://github.com/ChristianPalmiero/Slack-driven-Dual-Vth-Leakage-Optimization-Algorithm/blob/master/img.png)
 
 ## Details
-See the Report.pdf file in order to catch more information about the implementation details.
-<br />See the dualVth_Group_13.tcl file in order to read the script.
+See the [Report](Report.pdf) in order to catch more information about the implementation details.
+<br />See the [dualVth_Group_13.tcl](dualVth_Group_13.tcl) file in order to see the script.
